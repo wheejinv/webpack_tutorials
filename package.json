@@ -1,0 +1,23 @@
+{
+  "name": "webpack_tutorials",
+  "version": "1.0.0",
+  "description": "생활코딩 웹팩  https://opentutorials.org/module/4566",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wheejinv/webpack_tutorials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wheejinv/webpack_tutorials/issues"
+  },
+  "homepage": "https://github.com/wheejinv/webpack_tutorials#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
