@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>webpack test</title>
+</head>
+<body>
+<h1>..webpack</h1>
+<div id="root"></div>
+<script type="module">
+	import hello from "./src/hello.js";
+	import world from "./src/world.js";
+
+	document.querySelector('#root').innerHTML = hello + ' ' + world;
+
+</script>
+</body>
+</html>
